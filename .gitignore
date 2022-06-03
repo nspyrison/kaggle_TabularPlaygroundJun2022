@@ -40,3 +40,5 @@ vignettes/*.pdf
 
 ## NS
 /data/
+last_submission.csv
+last_submission.csv.gz
