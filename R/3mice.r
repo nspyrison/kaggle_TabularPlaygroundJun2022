@@ -34,9 +34,6 @@ dat <- dat[, -1] ## Remove "row_id"
 # dim(dat) ## 1M x 80
 # table(sapply(dat, class)) ## all numeric columns
 
-## DEV size reduction ----
-#dat <- dat[1:1E4, ]
-
 
 ## mice -----
 ## too many rows to view miss with md.pattern()
